@@ -43,4 +43,17 @@
 3. **Mandatory Disclosure**: AI use is logged in `SCRATCHPAD.md`.
 **Trade-offs**: Development may be slower due to mandatory human review and documentation overhead, but the resulting system is more ethical, secure, and aligned with institutional values.
 
-<!-- Add new decisions below, incrementing the number. -->
+## Decision 003 — Supabase for Backend Services (Auth, DB, Logic)
+
+**Date**: 2026-03-29
+**Decision**: Use Supabase as the backend-as-a-service (BaaS) provider for Auth, PostgreSQL Database, and Edge Functions.
+**Rationale**: To meet the project requirements for a "production-ready" app (verified auth, relational data, and logic like matching/AI moderation) while staying within the $0 cost constraint and static hosting limitation of GitHub Pages. Supabase provides a robust, PostgreSQL-backed platform that can be interacted with directly from a Vanilla JS frontend via their client library.
+**Alternatives considered**: Firebase (proprietary, NoSQL might be less ideal for complex matching), custom Node.js server (requires separate hosting and cost), and local storage only (cannot handle verified peer-to-peer connection).
+**Trade-offs**: We introduce a dependency on an external service provider and will need to manage API keys securely within the frontend (though Supabase's Row-Level Security mitigates this risk).
+
+**Guardrails Alignment**:
+- **Privacy & IP**: Supabase allows for Row-Level Security (RLS) policies to ensure that users can only access their own data, aligning with the "Zero-Trust" privacy guardrail.
+- **Disclosure**: The use of Supabase will be transparently documented in the project's technical architecture.
+- **Responsibility**: The developer is responsible for configuring RLS policies correctly to prevent data leakage.
+- **Bias & Trust**: Using a relational database (PostgreSQL) ensures data integrity and clear relationships, making the matching algorithm more predictable and less prone to "black-box" biases.
+- **Values**: Aligns with "Clarity over cleverness" by using industry-standard SQL and Auth patterns rather than custom, potentially less secure, implementations.

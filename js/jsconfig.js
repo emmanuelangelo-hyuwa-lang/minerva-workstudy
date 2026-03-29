@@ -1,0 +1,4 @@
+export const CONFIG = {
+SUPABASE_URL: 'https://heqtvukhtfplzdhwprnn.supabase.co',
+SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhlcXR2dWtodGZwbHpkaHdwcm5uIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ3NTYzMzMsImV4cCI6MjA5MDMzMjMzM30.LWcCoi9ZvzHS7zCTqMjJhzns_27GOhENMerGvPzDTNY'
+};

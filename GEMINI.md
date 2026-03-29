@@ -1,21 +1,21 @@
-# [PROJECT NAME] — Project Context
+# Minerva Connect — Project Context
 
 ## Project Identity
 
-**Name**: [Your App Name]
-**Purpose**: [One sentence — what does this app do, and why does it matter to the people who use it?]
-**Audience**: [Who uses this? What do they already know, and what are they trying to do?]
-**Human context**: [What changes in how people think, learn, or act because this app exists?]
+**Name**: Minerva Connect
+**Purpose**: A verified Q&A matching platform connecting applicants with current Minerva students for authentic peer-to-peer insights.
+**Audience**: Prospective Minerva students (applicants) seeking real-world perspectives, and current Minerva students (Minervans) willing to share their experiences.
+**Human context**: Facilitates trust and community by bridging the gap between those outside the institution and those within, ensuring applicants make informed decisions based on lived experiences.
 
-**GitHub repo**: [username/repo-name]
-**Live URL**: [https://username.github.io/repo-name]
+**GitHub repo**: [emmanuelangelo-hyuwa-lang/minerva-connect]
+**Live URL**: [https://emmanuelangelo-hyuwa-lang.github.io/minerva-connect/]
 
 ## Tech Stack
 
 - **Frontend**: Vanilla HTML, CSS, JavaScript — no framework, no build step
-- **Hosting**: GitHub Pages (static only — no server-side code, no databases)
-- **Data / Auth**: [e.g., localStorage only | external API — name it | none]
-- **Cost**: $0
+- **Hosting**: GitHub Pages (static only — no server-side code)
+- **Data / Auth**: Supabase (PostgreSQL, Auth with domain restriction, Edge Functions for AI moderation)
+- **Cost**: $0 (using Free Tiers)
 
 
 ## Key Files and Directories
