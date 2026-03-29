@@ -3,6 +3,7 @@
  */
 
 import { CONFIG } from './jsconfig.js';
+import { populateCountries } from './countries.js';
 
 // ============================================================
 // State & Clients
