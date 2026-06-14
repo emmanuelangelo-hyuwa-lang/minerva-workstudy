@@ -96,19 +96,9 @@ Then open http://localhost:8000. The Supabase connection is already configured i
 
 ---
 
-## License and Usage Rights
+## License
 
-**THIS PROJECT IS NOT LICENSED. NO LICENSE IS GRANTED.**
-
-**This repository is provided WITHOUT any open-source or other license. All rights are reserved by the author, Emmanuel Angelo-Hyuwa, under applicable copyright law. The absence of a license means that you are NOT granted any rights to use this work. By default, you may NOT reproduce, copy, fork, clone, mirror, download, host, redistribute, sublicense, modify, adapt, translate, publicly display, publicly perform, create derivative works from, or otherwise exploit any part or the whole of this project, in any form or medium, whether for commercial or non-commercial purposes.**
-
-**If you wish to use any portion or the entirety of this project, including but not limited to its source code, design, content, or assets, you MUST first obtain the author's prior written permission. To request permission, email minerva.connect@proton.me with the exact subject line:**
-
-> **`[URGENT] - Request for Reproduction`**
-
-**Your request must clearly describe (1) which parts of the project you intend to use, (2) the purpose and context of the intended use, and (3) where and how it will be distributed or displayed. No rights are granted unless and until you receive explicit written authorization from the author. Unauthorized use constitutes copyright infringement and may be subject to legal action.**
-
-**Limited exception for contributors:** solely for the purpose of contributing changes back to this repository via a pull request, you are permitted to fork and clone this repository. This limited permission does not grant any right to use the project for any other purpose. See [CONTRIBUTING.md](CONTRIBUTING.md).
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 

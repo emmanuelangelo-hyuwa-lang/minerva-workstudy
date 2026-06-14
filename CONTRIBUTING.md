@@ -8,7 +8,9 @@ Hi, I'm Emmanuel, an incoming second-year student at Minerva University, and thi
 
 ## A note on usage rights
 
-This project is **not licensed for general reuse** (see the License and Usage Rights section in the [README](README.md)). To be clear: you are permitted to fork and clone this repository **for the sole purpose of contributing changes back to this project via a pull request**. Any other use requires the author's prior written permission as described in the README.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+Forking, cloning, and using the code is permitted under the terms of the MIT license, including contributions via pull request.
 
 ## What this project is
 
