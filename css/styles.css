@@ -142,8 +142,15 @@ header {
 }
 
 .magic-link-message {
-  margin-top: 12px;
-  font-weight: 600;
+    color: #1f6f43;
+    background: #e7f4ec;
+    border-left: 4px solid #1f6f43;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 label {
