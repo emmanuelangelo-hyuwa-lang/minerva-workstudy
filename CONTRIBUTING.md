@@ -1,12 +1,12 @@
 # Contributing to Minerva Connect
 
-Thanks for helping out. **I hope you read this all the way through.** It's short, and it'll save us both time on the pull request. Before anything else, please skim the [README](README.md) so you understand what the project does and the values behind it.
+Thanks so much for wanting to help! ✨ This is a small, fun project and I'd love to have you involved. Before you dive in, just give the [README](README.md) a quick skim so you know what we're building here.
 
-## A note from the maintainer
+## Hey, I'm Emmanuel 👋
 
-Hi, I'm Emmanuel, an incoming second-year student at Minerva University, and this is the first repository I'm managing on my own. If you have even a little bit of experience, please feel free to reach out and help out. Most of the issues here (if not all) are beginner-level, so this is a friendly, low-pressure open-source project to practice on and learn with. I appreciate the patience and the help.
+I'm an incoming second-year student at Minerva University, and this is my first solo project here on GitHub. This is a *small* project—no pressure, no corporate bureaucracy. Most of the issues are beginner-friendly, so whether you're just getting started with open source or you've got more experience, this is a great place to contribute and learn together. If you get stuck, just ask. I'm here to help.
 
-## A note on usage rights
+## Quick note on usage rights
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
@@ -16,7 +16,7 @@ Forking, cloning, and using the code is permitted under the terms of the MIT lic
 
 Minerva Connect matches Minerva University applicants with current students for verified Q&A. It's a vanilla HTML, CSS, and JavaScript static site backed by [Supabase](https://supabase.com). See the [README](README.md) for the full picture.
 
-## Setup
+## Setup 🛠️
 
 1. **Fork and clone** this repository (for contribution purposes, per the note above).
 
@@ -28,7 +28,7 @@ Minerva Connect matches Minerva University applicants with current students for 
 
 That's it. You're connected to the same database the live app uses.
 
-### Testing the Minervan side locally
+### Testing the Minervan side locally 🔐
 
 The student-facing dashboard normally requires a `@uni.minerva.edu` magic-link login. So contributors can see that side without a Minerva email, there's a local-only dev login:
 
@@ -37,9 +37,9 @@ The student-facing dashboard normally requires a `@uni.minerva.edu` magic-link l
 
 If `login@login.com` doesn't log you in, the shared test user may need to be (re)created in Supabase. Open an issue and I'll sort it out.
 
-> **Note on the Supabase key:** the `SUPABASE_ANON_KEY` in `js/jsconfig.js` is a *public* key. It's meant to ship in browser code, so committing it is expected and safe. Data is protected by Row Level Security policies on the database, not by hiding the key. **Please don't commit any other secrets** (`.env` files, service keys, and similar). Those are gitignored for a reason.
+> 🔑 **Note on the Supabase key:** the `SUPABASE_ANON_KEY` in `js/jsconfig.js` is a *public* key. It's meant to ship in browser code, so committing it is expected and safe. Data is protected by Row Level Security policies on the database, not by hiding the key. **Please don't commit any other secrets** (`.env` files, service keys, and similar). Those are gitignored for a reason.
 
-## Brand and guardrails standards (please follow these)
+## Brand and guardrails standards 🎨
 
 This is a Minerva-aligned project, so contributions need to respect two things:
 
@@ -48,15 +48,14 @@ This is a Minerva-aligned project, so contributions need to respect two things:
 - Keep serif for headings, sans-serif for body.
 - Maintain WCAG AA contrast and responsive layouts.
 
-**AI Guardrails**: see [Guardrails Docs/](Guardrails%20Docs/). In short: keep humans accountable, minimize the personal data we collect (no sensitive PII), and preserve the in-app "AI-Assisted" disclosure. If your change uses AI features, disclose it.
+**AI Guardrails** 🤖: see [Guardrails Docs/](Guardrails%20Docs/). In short: keep humans accountable, minimize the personal data we collect (no sensitive PII), and preserve the in-app "AI-Assisted" disclosure. If your change uses AI features, disclose it.
 
-## Making changes
+## Making changes 💪
 
 - Branch off `main`, make your change, and test it locally against the shared backend.
-- Keep changes consistent with the brand and guardrails above.
-- **All commits must be signed.** Pull requests with unsigned commits will not be merged. If you don't know how to sign your commits, see GitHub's guide: [Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) (and [About commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) for the background).
-- Open a pull request describing **what** you changed and **how** you tested it.
+- Keep things consistent with the brand and guardrails above.
+- Open a pull request with a description of **what** you changed and **how** you tested it. That's it!
 
-## Questions?
+## Got questions?
 
-Open an issue. I'm happy to help you get unstuck. Thanks again for reading, and welcome aboard.
+Just open an issue! I genuinely enjoy helping people get unstuck, so don't hesitate. Thanks for being here, and excited to work with you 🚀
