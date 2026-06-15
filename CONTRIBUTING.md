@@ -8,7 +8,9 @@ I'm an incoming second-year student at Minerva University, and this is my first 
 
 ## Quick note on usage rights
 
-This project has a specific license (check the [README](README.md) for the full details). Basically: you can fork and clone it to contribute back to *this* project, but other uses need my permission first. It's all explained in the README.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+Forking, cloning, and using the code is permitted under the terms of the MIT license, including contributions via pull request.
 
 ## What this project is
 
